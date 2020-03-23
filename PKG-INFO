@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: typedef
+Version: 0.1.0
+Summary: python-dict <-> c-struct-bytes; only for python3.7 or newer 
+Home-page: https://github.com/shenjiayee/typedef
+Author: Aleph
+Author-email: shenjiayee@qq.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
