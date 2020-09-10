@@ -19,7 +19,15 @@ dict_ = sample2.to_python()
 
 # {'name': 'typedef', 'version': 20200327}
 
+```
 
+## allow nested defination
+```python
 class ComplexSample(CStruct):
     message CHAR[60]
     children SampleStruct[5]
+
+sample = ComplexSample({'message': 'this is a message','chidren': [{'name': 'pkg_typedef', 'version': 1001}, {'name': 'pkg_serializer', 'version': 1003}])
+bytes_ = sample.to_bytes(order='=')
+
+```
